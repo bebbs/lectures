@@ -1,2 +1,6 @@
 Tuesday PM lecture
 
+'should' is deprecated rspec syntax
+bike = Bike.new x3? Refactor.
+set instance variable in initialize method.
+be_broken => broken?
