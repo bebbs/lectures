@@ -1,0 +1,11 @@
+Composition - Classes are composed of objects (everything within them.)
+            - A larger object composed of many smaller objects.
+            - A Car class is *composed* of it's engine, doors, etc.
+          
+            
+Encapsulation - Class A shouldn't have access to the working parts of Class B.
+              - @instance variables available across the whole class. Variables available only within their scope.
+              - Car class passes on message to the engine rather than User > engine directly.
+
+Inheritance - 'Is a -' relationships.
+            - Trickle down of methods from parent classes.
