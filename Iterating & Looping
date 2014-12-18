@@ -1,0 +1,19 @@
+Recursion:
+
+def palindrome word
+  return true if word.length <= 1      << Chance to exit the method.
+  return false if word.slice!(-1) != word.slice!(0)
+  palindrome word << Recurses through again.
+end
+
+Using slice! to permanently alter word.
+(-1) index from last char of the string.
+
+Factorial: 
+
+Factorial of 5 = 5x4x3x2x1 = 120
+
+def factorial(number)
+  return 1 if number == 1
+  number * (factorial(number-1))
+end
