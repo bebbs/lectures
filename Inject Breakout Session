@@ -1,0 +1,26 @@
+Open and test array class.
+
+An enumerator is something that can be iterated over.
+
+inject == reduce
+
+describe the array
+context with a block
+write an expectation for everything that inject can already do (+, -, * etc.)
+
+use self
+iterate over self?
+
+def my_inject 
+  puts block.call
+    self.each do |item|
+      yield memo, item
+    end
+  end
+end
+
+copy = self.dup
+
+Takeaway -> Inject for adding up totals?
+
+
