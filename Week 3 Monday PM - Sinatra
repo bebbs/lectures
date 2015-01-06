@@ -1,0 +1,15 @@
+*Look up Sinatra Pill resources
+
+:production, :development, :test => Different environments for gems.
+:dev, :test => RSpec, Cucumber etc.
+Sinatra in all.
+
+Cucumber
+-------
+
+Feature Stakeholder, What they want to do, Motivation
+Given, then, when etc. are equivalent.
+Websteps strip the given, then, when - match steps in a scenario to step through the code.
+
+
+
