@@ -1,0 +1,8 @@
+cucumber-sinatra init < Initialises file structure for new sinatra app.
+
+features < cucumber directory
+support and step-def's belong to cucumber
+
+To implement custom websteps, copy 'pending' section from failing cucumber test into a new websteps file.
+
+Hard-code output to check that websteps are all functioning correctly.
