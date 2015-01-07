@@ -1,0 +1,45 @@
+Parameters
+  Within a form => action = address it is sent to, method = post, get, put etc.
+  Use forms to post parameters to actions
+  puts params in terminal to list all posted parameters
+  params[:passed_through] syntax
+  
+  @ instance variables in Sinatra aren't actually instance variables. They can be used to pass variables through to erb views.
+  
+  <%= Ruby code that gets displayed %>
+  <% Ruby code that doesn't get displayed. %> <- Useful for conditionals etc.
+  
+  Use post for secure information. Get sends everything as query string parameters.
+  
+  Get requests shouldn't be dependent on URL parameters being passed in.
+  
+  Query string parameters - Anything sent through a URL can be manipulated within a get request. => Expedia
+  
+  get '/hello/:first/:name' do     => Kayak
+    @first = params[:first]
+    @name = params[:name]
+  end
+  
+  
+Partials
+
+  <%= erb :form %>
+  Reusable snippets of code -> DRY principle
+  
+  get '/1' do
+    erb :1, layout: :'xyz'    <- Call from a different layout (or false) to layout.erb 
+  end
+  
+Public
+
+  Public directory is accessible for stylesheets, javascript, images etc.
+  http://localhost:9393/images/image1.jpg
+  
+
+HTTP Verbs
+  Get - most commonly used
+  Post - most commonly used
+  Put/Patch
+  Delete
+  Head
+  
