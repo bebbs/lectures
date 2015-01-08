@@ -1,0 +1,20 @@
+HTTP Protocol ->  Stateless, doesn't store any data about transactions. Uses less data, memory without a state.
+
+Sessions
+
+Meant to be destroyed later.
+Can include multiple transactions
+
+One way to send a session value: Within query string parameters.
+http://abc.com/?session_id=1234 <-- Insecure, anyone could use session_id parameter.
+
+Cookies are a better way. Can have a certain amount of data - 4kb. Have to be careful how much information is sent.
+Request has a header and a body <-- Cookies are a part of the header.
+
+Use session.inspect to look at the session in terminal.
+
+Sessions are hashes, can attach key/value pairs to them.
+
+Don't attach objects to sessions.
+Work out how to test session functionality with Cucumber/Capybara
+
