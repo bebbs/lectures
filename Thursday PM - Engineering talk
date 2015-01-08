@@ -1,0 +1,15 @@
+Thoughtbot gems?
+
+Mapping out user stories
+Makers Academy Unixoid gem -> Use cases for coaches and students.
+
+Drop any spike code and redo it with TDD.
+
+Gary Bernhardt Boundaries talk.
+
+RSpec new version - verifying doubles.
+
+Delegation with forwardable - (Standard Ruby library)
+Principle of least astonishment - Declare dependencies on modules etc. at the start of the file - not surprising when it comes up later in the program.
+
+Rspec tests - think about behaviour when writing contexts / descriptions rather than unit-test specific language.
