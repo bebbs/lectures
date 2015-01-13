@@ -1,0 +1,18 @@
+Types of databases:
+- Relational Database
+  Mysql, Postgres, Mongo, Nosql etc.
+  
+Postgres favoured by open source community
+  
+SQL => Structured Query Language
+
+Postgres cheat sheet: http://blog.jasonmeridth.com/posts/postgresql-command-line-cheat-sheet/
+
+Should never interact directly with the data => Use an ORM.
+
+Learn SELECT, UPDATE, DELETE, INSERT INTO, CREATE DATABASE SQL commands. => Learn SQL the hard way
+
+Models directory => Database setup for a user, link, etc.
+Models should always be singular => user.rb instead of users.rb
+
+  
