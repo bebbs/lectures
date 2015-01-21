@@ -1,0 +1,33 @@
+CSS em's => Relative to the pixel height of a capital 'M'
+
+- css
+- js
+- lib
+- spec
+index.html
+
+Link to jQuery CDN, but if you want to work offline will have to have it in the directory.
+Could link to JS dependencies at the bottom of HTML to ensure that HTML loads first.
+
+Use interface.js to contain custom javascript.
+
+var thermostat = new Thermostat(); <- Creates an instance of a thermostat
+
+var updateTemperature = function() {
+  $('#temperature').text(thermostat.temperature);
+};
+
+Invoking jQuery: jquery(); or $();
+
+$(document).ready(function() {
+  updateTemperature();
+});
+
+To use buttons, have the script listen out for a 'click event'.
+
+$('.increase-temp').on('click', function() {
+  thermostat.increaseTemperature();
+  $('#temperature').text(thermostat.temperature);      <- Use the jQuery selector to target another element.
+});
+
+DOM 'nodes' are endpoints / junctions.
