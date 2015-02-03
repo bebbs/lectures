@@ -1,0 +1,26 @@
+Node - Server side implementation of JavaScript.
+
+npm init - Creates a package.json, equivalent to a Gem file in Ruby
+JSON - JavaScript Object Notation, plain text hashes for data.
+
+npm test will return that no tests are specified.
+npm install jasmine-node  => gem install rspec
+    -g => Globally install
+    --save-dev => Adds dependencies to package.json (Gemfile)
+
+Specify that you want to use jasmine-node for testing.
+
+.gitignore the node_modules folder. Contains all dependencies within the project rather than elsewhere.
+
+Within scripts (package.json):
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
+
+Create a spec directory, create a Specfile.
+
+Do 'reps' for setting up projects.
+
+Within first test:
+    var Game = require('../src/game');
+    
+Within source file:
+    module.exports = Game;
